@@ -77,21 +77,26 @@ function DropDown(props: DropDownProps){
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
-        <div>
-            <div>
+        <div 
+            onMouseLeave={() => setIsOpen(false)}
+        >
+            <div 
+                onMouseEnter={() => setIsOpen(true)}
+            >
                 {props.title}
             </div>
-
-            <ul>
-                {props.subLinks.map((current) => {
-                    return (
-                        <li><Link href={"/" + props.folderName + "/" + current.link}>
-                            <a>{current.title}</a>
-                        </Link></li>
-                    );
-                })}
+            { isOpen && 
+                <ul>
+                    {props.subLinks.map((current) => {
+                        return (
+                            <li><Link href={"/" + props.folderName + "/" + current.link}>
+                                <a>{current.title}</a>
+                            </Link></li>
+                        );
+                    })}
 
             </ul>
+            }
         </div>
     );
 }

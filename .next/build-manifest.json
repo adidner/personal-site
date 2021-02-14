@@ -14,11 +14,6 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -29,100 +24,15 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/favorites/books": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/favorites/books.js"
-    ],
-    "/favorites/movies": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/favorites/movies.js"
-    ],
-    "/favorites/shows": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/favorites/shows.js"
-    ],
-    "/favorites/songs": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/favorites/songs.js"
-    ],
-    "/favorites/videogames": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/favorites/videogames.js"
-    ],
-    "/hobbies/coding": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hobbies/coding.js"
-    ],
-    "/hobbies/cooking": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hobbies/cooking.js"
-    ],
     "/hobbies/dance": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/hobbies/dance.js"
     ],
-    "/hobbies/dungeonsanddragons": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hobbies/dungeonsanddragons.js"
-    ],
-    "/hobbies/exercise": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hobbies/exercise.js"
-    ],
-    "/hobbies/piano": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hobbies/piano.js"
-    ],
-    "/hobbies/reading": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hobbies/reading.js"
-    ],
-    "/hobbies/tv": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hobbies/tv.js"
-    ],
-    "/interestingasides/cute": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/interestingasides/cute.js"
-    ],
-    "/interestingasides/funfacts": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/interestingasides/funfacts.js"
-    ],
-    "/interestingasides/lessons": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/interestingasides/lessons.js"
-    ],
-    "/interestingasides/memes": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/interestingasides/memes.js"
-    ],
     "/interestingasides/tiktoks": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/interestingasides/tiktoks.js"
-    ],
-    "/next/dist/pages/_error": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []
