@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/interestingasides/tiktoks": "pages/interestingasides/tiktoks.js",
-  "/hobbies/dance": "pages/hobbies/dance.js"
+  "/": "pages/index.js"
 }

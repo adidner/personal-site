@@ -1,3 +1,11 @@
+setup nav bar navigation to everything in such a way that commenting out sections is nice and easy
+setup scss to do some nice things for me here
+
+get a domain (probably aarondidner.me)
+
+host with netlify or huroku or maybe try both or something idk
+
+
 
 figure out how I want to design project pages
     - personal and professional
@@ -6,16 +14,15 @@ figure out how I want to design project pages
 
 cement designs of particular pages via low fidelity mockups, based on a combination of other peoples examples and my own inclination
 
-setup nav bar navigation to everything in such a way that commenting out sections is nice and easy
+
 
 do all the pages
     - some easy win pages include, /interestingasides/*, hobbies/piano, hobbies/cooking?
     - other priorities include /root and /personalproject and /professional projects which are the most important to have at least somewhat complete before publishing
 
-get a domain (probably aarondidner.me)
 
-host with netlify or huroku or maybe try both or something idk
 
+add site to resume
 
 
 
