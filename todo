@@ -1,0 +1,21 @@
+
+figure out how I want to design project pages
+    - personal and professional
+    - possibly / to a card based page with a brief description, when clicked goes to a / page with more details and such
+    - alternatively just a / with everything ordered in decending with a side menu that takes you down to a specific section
+
+cement designs of particular pages via low fidelity mockups, based on a combination of other peoples examples and my own inclination
+
+setup nav bar navigation to everything in such a way that commenting out sections is nice and easy
+
+do all the pages
+    - some easy win pages include, /interestingasides/*, hobbies/piano, hobbies/cooking?
+    - other priorities include /root and /personalproject and /professional projects which are the most important to have at least somewhat complete before publishing
+
+get a domain (probably aarondidner.me)
+
+host with netlify or huroku or maybe try both or something idk
+
+
+
+
