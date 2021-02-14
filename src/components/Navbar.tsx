@@ -1,25 +1,37 @@
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 
 function Navbar() {
   return (
-    <div>
-        <ul>
+    <div className={"navbar"}>
+        <div className={"navbar-name"}>
+            Aaron Didner
+        </div>
+        <ul className={"navbar-main-ul"}>
             <li><Link href="/">
                 <a>Home</a>
+            </Link></li>
+
+            <li><Link href="/professionalprojects">
+                <a>Professional Projects</a>
             </Link></li>
             
             <li><Link href="/personalprojects">
                 <a>Personal Projects</a>
             </Link></li>
-            
-            <li><Link href="/professionalprojects">
-                <a>Professional Projects</a>
-            </Link></li>
 
-            <li><Link href="/selfimprovement">
-                <a>Self Improvement</a>
-            </Link></li>        
+            <li>
+                <DropDown
+                    title={"Interesting Asides"}
+                    folderName={"interestingasides"}
+                    subLinks={[
+                        {link:"cute", title: "Cute"},{link: "funfacts", title: "Fun Facts"},
+                        {link: "lessons", title: "Lessons Learned"},
+                        {link: "memes", title: "Best Memes"},{link: "tiktoks", title: "Best TikToks"}
+                    ]}
+                />
+            </li>      
 
             <li>
                 <DropDown
@@ -28,7 +40,7 @@ function Navbar() {
                     subLinks={[
                         {link:"books", title: "Books"},{link: "movies", title: "Movies"},
                         {link: "shows", title: "Shows"},{link:"songs", title: "Songs"},
-                        {link: "videogames", title: "Video Games"}
+                        {link: "videogames", title: "Games"}
                     ]}
                 />
             </li>
@@ -39,23 +51,15 @@ function Navbar() {
                     folderName={"hobbies"}
                     subLinks={[
                         {link: "coding", title: "Coding"},{link: "cooking", title: "Cooking"},
-                        {link: "dance", title: "Dance"},{link: "dungeonsanddragons", title: "Dungeons and Dragons"},
+                        {link: "dance", title: "Dance"},{link: "dungeonsanddragons", title: "D&D"},
                         {link: "exercise", title: "Exercise"},{link: "piano", title: "Piano"},{link: "reading", title: "Reading"},{link: "tv", title: "TV"}
                     ]}
                 />
             </li>
 
-            <li>
-                <DropDown
-                    title={"Interesting Asides"}
-                    folderName={"interestingasides"}
-                    subLinks={[
-                        {link:"cute", title: "Cute"},{link: "funfacts", title: "Fun Facts"},
-                        {link: "lessons", title: "Lessons I've Learned"},
-                        {link: "memes", title: "Best Memes"},{link: "tiktoks", title: "Best TikToks"}
-                    ]}
-                />
-            </li>
+            <li><Link href="/selfimprovement">
+                <a>Self Improvement</a>
+            </Link></li>  
 
         </ul>
     </div>
@@ -82,21 +86,19 @@ function DropDown(props: DropDownProps){
         >
             <div 
                 onMouseEnter={() => setIsOpen(true)}
+                className={"navbar-menu-title"}
             >
                 {props.title}
             </div>
-            { isOpen && 
-                <ul>
-                    {props.subLinks.map((current) => {
-                        return (
-                            <li><Link href={"/" + props.folderName + "/" + current.link}>
-                                <a>{current.title}</a>
-                            </Link></li>
-                        );
-                    })}
-
+            <ul className={`navbar-dropdown-ul ${isOpen ? "visible" : "invisible"}`}>
+                {props.subLinks.map((current) => {
+                    return (
+                        <li><Link href={"/" + props.folderName + "/" + current.link}>
+                            <a>{current.title}</a>
+                        </Link></li>
+                    );
+                })}
             </ul>
-            }
         </div>
     );
 }

@@ -1,6 +1,18 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  li {
-    height: 500px;
-    width: 500px;
-  }
+  background-color: $primary-color;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
 }

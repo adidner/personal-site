@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 function TikToks() {
     return (
         <Layout>
-          <div>TikToks</div>
+          <h1>TikToks</h1>
         </Layout>
       );
 }
