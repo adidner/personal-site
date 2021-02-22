@@ -5,178 +5,178 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/_a_8GvSiXfaSnYNjQ6imF/_buildManifest.js",
-    "static/_a_8GvSiXfaSnYNjQ6imF/_ssgManifest.js"
+    "static/Sfau4do_6ac63pcYno4XY/_buildManifest.js",
+    "static/Sfau4do_6ac63pcYno4XY/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/index-4c83927a115d442a8b35.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/index-340fb7c671b587057dac.js"
     ],
     "/_app": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/css/61442a3f5d30ef45eb3b.css",
-      "static/chunks/pages/_app-8d6f3ba85b1be82b7c44.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/css/d068bee3d3a84dcf2134.css",
+      "static/chunks/pages/_app-2ed4c91783ae5c2bd822.js"
     ],
     "/_error": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/_error-55971cd0b12651c569c2.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/_error-814b3ba46ca7269b623e.js"
     ],
     "/favorites/books": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/favorites/books-d3a0f83dac4f863d286d.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/favorites/books-00ab7b0e50c2b8ed6720.js"
     ],
     "/favorites/movies": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/favorites/movies-b331fa0569e5723b5b72.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/favorites/movies-8e72103758a8cb5efeb8.js"
     ],
     "/favorites/shows": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/favorites/shows-c032e43819f97bf3d249.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/favorites/shows-b423a7e29958ecedccb6.js"
     ],
     "/favorites/songs": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/favorites/songs-99198644d6a7be7b48f5.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/favorites/songs-4e066437b41aca88fc16.js"
     ],
     "/favorites/videogames": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/favorites/videogames-4058fbdf7c0b737c6ec7.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/favorites/videogames-db25694d9f87b25aee35.js"
     ],
     "/hobbies/coding": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/coding-3e83c3c2e337695e7a3e.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/coding-39e3fdd00e1a391359b8.js"
     ],
     "/hobbies/cooking": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/cooking-f80c0a7ccc0491ffcbd7.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/cooking-b493d4eed9b8c00ee4f6.js"
     ],
     "/hobbies/dance": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/dance-75b7bef31ad6a96b12a4.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/dance-e300a1b5f1a12e866071.js"
     ],
     "/hobbies/dungeonsanddragons": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/dungeonsanddragons-f54d38c6e94f1e10a081.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/dungeonsanddragons-0ee77a7c040153666970.js"
     ],
     "/hobbies/exercise": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/exercise-7f5fdedf2dab0b9a1294.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/exercise-e9bdb533fdbcb4231e9a.js"
     ],
     "/hobbies/piano": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/piano-bc170b46188b344e9b2a.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/piano-69cbfbfc205e33795078.js"
     ],
     "/hobbies/reading": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/reading-a00852a8c17f246f071c.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/reading-190d88ec5c37a6b881d6.js"
     ],
     "/hobbies/tv": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/hobbies/tv-5ea30473103e3e77e63e.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/hobbies/tv-a763749bc4d9a083335c.js"
     ],
     "/interestingasides/cute": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/interestingasides/cute-cbf79a30c81da08e957e.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/interestingasides/cute-d158ac84d1db356723b2.js"
     ],
     "/interestingasides/funfacts": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/interestingasides/funfacts-83a86561a876f90ea182.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/interestingasides/funfacts-34b87c6f98dd777524c0.js"
     ],
     "/interestingasides/lessons": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/interestingasides/lessons-065f8b68a3ab962ad7d7.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/interestingasides/lessons-ac6423910987857bf7bf.js"
     ],
     "/interestingasides/memes": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/interestingasides/memes-b66c85a2a55a4b96d573.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/interestingasides/memes-62056dd35c7215c13171.js"
     ],
     "/interestingasides/tiktoks": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/interestingasides/tiktoks-7e68c0f63c1671a2fd0c.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/interestingasides/tiktoks-2a23e119f068905247a3.js"
     ],
     "/personalprojects": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/personalprojects-66843e9a3696ab15e103.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/personalprojects-9a1c3055fc06432b4cf4.js"
     ],
     "/professionalprojects": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/professionalprojects-09e66d8c31e229a77364.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/professionalprojects-b7984ad62c1af102f2ec.js"
     ],
     "/selfimprovement": [
-      "static/chunks/main-a00ecfa4717c28949e13.js",
+      "static/chunks/main-d107bfab786f1e6662fc.js",
       "static/chunks/webpack-50bee04d1dc61f8adf5b.js",
       "static/chunks/framework.ae602c9f15f1d83ed78e.js",
-      "static/chunks/commons.968e1b0df02bad8a2f11.js",
-      "static/chunks/pages/selfimprovement-c7c4a7853c2350810ce6.js"
+      "static/chunks/commons.0cf663ea54c32eec8488.js",
+      "static/chunks/pages/selfimprovement-b2a327f3a68108765add.js"
     ]
   },
   "ampFirstPages": []

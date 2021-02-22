@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 function Root() {
     return (
         <Layout>
+          <div>https://adidner.github.io/personal-site/ as asset prefix maybe</div>
           <h4>Hi, my name is</h4>
           <h1>Aaron Didner</h1>
           <h2>I build Web and Mobile apps</h2>
