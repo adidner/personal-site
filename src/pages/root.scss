@@ -1,0 +1,16 @@
+@import "../scss/variables.scss";
+
+.icon-link-container {
+    display:flex;
+    align-items: center;
+
+    a {
+        margin-left: 5px;
+    }
+}
+
+.all-icon-links-container {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
