@@ -5,7 +5,13 @@
     align-items: center;
 
     a {
-        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        div {
+            margin-left: 5px;
+        }
     }
 }
 
@@ -13,4 +19,26 @@
     display:flex;
     justify-content: space-around;
     flex-direction: row;
+}
+
+.bio-and-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    .image-container{
+        width: 40%;
+    }
+
+    .bio-container{
+        width: 40%;
+    }
+}
+
+.center-get-in-touch{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }

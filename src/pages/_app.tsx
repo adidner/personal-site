@@ -1,6 +1,6 @@
 
 import "../css.generated/default.css";
-import "../css.generated/styles.css";
+import "../css.generated/components.css";
 import "../css.generated/root.css";
 
 import type { AppProps } from 'next/app';
