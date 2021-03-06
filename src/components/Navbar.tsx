@@ -6,15 +6,17 @@ function Navbar() {
   return (
     <div className={"navbar"}>
         <div className={"navbar-name"}>
-            Aaron Didner
+            <li><Link href="/">
+                <a>Aaron Didner</a>
+            </Link></li>
         </div>
         <ul className={"navbar-main-ul"}>
-            <li><Link href="/">
+            {/* <li><Link href="/">
                 <a>Home</a>
-            </Link></li>
+            </Link></li> */}
 
-            <li><Link href="/professionalprojects">
-                <a>Professional Projects</a>
+            <li><Link href="/professionalexperience">
+                <a>Experience</a>
             </Link></li>
             
             <li><Link href="/personalprojects">
