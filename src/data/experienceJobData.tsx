@@ -35,12 +35,12 @@
             },
             {
                 introPrompt: "Working on operator user interface and sensor integration for reconnaisance aircraft",
-                bulletList: ["Designed User Interfaces and iterated on said designs with insight from product owner","Implemented User Interfaces designs in React and TypeScript","Developed parallel processing Orchestrators to parse and reconfigure data in C++","Integrated parsers created by teammates intot he Orchestrator"],
+                bulletList: ["Designed User Interfaces and iterated on said designs with insight from product owner","Implemented User Interfaces designs in React and TypeScript","Developed parallel processing Orchestrators to parse and reconfigure data in C++","Integrated parsers created by teammates into the Orchestrator"],
             }
         ],
         //extra to add stuff and put in a conditionally expandable show more kind of tab/section
-        bestPart: "Designing and implementing my own tools from scratch is always a lot of fun because its something I created mostly from scratch. Working on the component library has given me a lot of expose to lower level concepts and expertise and learning of css selectors and css priority. Also more experience unit testing. Flexability is pretty nice in terms of working from home and everyone is generally quite nice and friendly. Also on the component library team I have excellent mentor ship and good pratices enforced",
-        worstPart: "The main code base outside the component library is quite old and has a lot of tech debt that makes many modern practices challenging. Feedback is soemtimes hard to come by and timelines as well. Sometimes I feel like my work is being undervalued despite its high quality and volume",
+        bestPart: "",//"Designing and implementing my own tools from scratch is always a lot of fun because its something I created mostly from scratch. Working on the component library has given me a lot of expose to lower level concepts and expertise and learning of css selectors and css priority. Also more experience unit testing. Flexability is pretty nice in terms of working from home and everyone is generally quite nice and friendly. Also on the component library team I have excellent mentor ship and good pratices enforced",
+        worstPart: "",//"The main code base outside the component library is quite old and has a lot of tech debt that makes many modern practices challenging. Feedback is soemtimes hard to come by and timelines as well. Sometimes I feel like my work is being undervalued despite its high quality and volume",
         reflection: "",
         companySize: "3,000",
         techStack: ["React", "TypeScript", "C++"],
