@@ -12,7 +12,7 @@ export interface pictureWithDescription {
     description: string;
 }
 
-export const showData: loverDataInterface[] = [
+export const loverData: loverDataInterface[] = [
     {
         nameFirst: "Jessica",
         nameLast: "King",
@@ -41,7 +41,8 @@ export const showData: loverDataInterface[] = [
             "https://www.youtube.com/watch?v=PbSZhGONRBg",
             "https://www.youtube.com/watch?v=u99AklNGpyc",
             "https://www.youtube.com/watch?v=qYoTkgvUc7c",
-            "https://www.youtube.com/watch?v=r6SCzCs1PuA"
+            "https://www.youtube.com/watch?v=r6SCzCs1PuA",
+            "https://www.youtube.com/watch?v=s5TIulzXoXo"
 
         ],
         dateingLength: "4 months",
@@ -58,20 +59,22 @@ export const showData: loverDataInterface[] = [
             "https://www.youtube.com/watch?v=JybV1mL6EMA",
             "https://www.youtube.com/watch?v=aO7sxBP3kOI",
             "https://www.youtube.com/watch?v=ZK3HWSNNSiA",
+            "https://www.youtube.com/watch?v=kW3J06VKBK4"
         ],
         dateingLength: "1 year",
         era: "Junior/Senior year of college Corvallis Oregon 2018 - 2019"
     },
     {
         nameFirst: "Natasha",
-        nameLast: "Bolshikof",
+        nameLast: "Bolshakoff",
         pictures: [],
         songs: [
             "https://www.youtube.com/watch?v=m7Bc3pLyij0",
             "https://www.youtube.com/watch?v=KfXvjxbRhZk",
             "https://www.youtube.com/watch?v=b6Zh-sD3Wg0",
             "https://www.youtube.com/watch?v=fIcEF_4hvGQ",
-            "https://www.youtube.com/watch?v=QeUFmGLhI_s"
+            "https://www.youtube.com/watch?v=QeUFmGLhI_s",
+            "https://www.youtube.com/watch?v=3cKtSlsYVEU"
 
         ],
         dateingLength: "1.5 years",
