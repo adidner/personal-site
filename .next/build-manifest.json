@@ -24,11 +24,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/interestingasides/tiktoks": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/interestingasides/tiktoks.js"
-    ],
     "/personalprojects": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

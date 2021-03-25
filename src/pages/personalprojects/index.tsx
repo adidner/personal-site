@@ -10,3 +10,12 @@ function PersonalProjects() {
 }
 
 export default PersonalProjects;
+
+
+function PersonalProjectCards() {
+  return (
+    <div>
+      
+    </div>
+  );
+} 

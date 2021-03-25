@@ -3,6 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/professionalexperience": "pages/professionalexperience.js",
-  "/interestingasides/tiktoks": "pages/interestingasides/tiktoks.js",
   "/personalprojects": "pages/personalprojects.js"
 }
