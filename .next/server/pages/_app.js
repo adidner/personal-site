@@ -167,8 +167,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_generated_root_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_generated_root_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _css_generated_professionalexperience_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css.generated/professionalexperience.css */ "./src/css.generated/professionalexperience.css");
 /* harmony import */ var _css_generated_professionalexperience_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_generated_professionalexperience_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _css_generated_personalprojects_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../css.generated/personalprojects.css */ "./src/css.generated/personalprojects.css");
-/* harmony import */ var _css_generated_personalprojects_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_css_generated_personalprojects_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _css_generated_personalprojects_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css.generated/personalprojects.css */ "./src/css.generated/personalprojects.css");
+/* harmony import */ var _css_generated_personalprojects_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_generated_personalprojects_css__WEBPACK_IMPORTED_MODULE_5__);
 
 var _jsxFileName = "C:\\Users\\aaron\\OneDrive\\Desktop\\Apps\\personal-site\\src\\pages\\_app.tsx";
 

@@ -1,5 +1,49 @@
-
+@import "../../scss/variables.scss";
 
 .personal-projects-container{
     margin: 10px 0 20px 0;
+
+    .personal-projects-title {
+
+    }
+}
+
+.personal-project-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+
+    .picture-container {
+        flex-direction: column;
+        margin: 10px 10px;
+        flex: 1;
+    }
+
+    .text-container {
+        flex-direction: column;
+        display: flex;
+        margin: 10px 10px;
+        justify-content: center;
+        flex: 1;
+
+        .text-title-container {
+            justify-content: center;
+            display: flex;
+        }
+
+        .tech-stack-container {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+
+        .tech-stack-wrapper {
+            border: solid $accent-color 2px;
+            padding: 5px;
+            margin: 3px;
+        }
+
+    }
+
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import {loverData} from "../../data/loverData";
+import {loverData} from "../../../public/data/loverData";
 
 const alisonData = loverData.filter((current) => current.nameFirst === "Alison" && current.nameLast === "Jones");
 

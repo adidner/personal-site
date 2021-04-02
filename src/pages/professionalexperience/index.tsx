@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import {experienceSkillData} from "../../data/experienceSkillsData";
-import { experienceJobdata, experienceJobInterface } from "../../data/experienceJobData";
+import {experienceSkillData} from "../../../public/data/experienceSkillsData";
+import { experienceJobdata, experienceJobInterface } from "../../../public/data/experienceJobData";
 
 
 function ProfessionalProjects() {
