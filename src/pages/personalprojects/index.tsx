@@ -1,6 +1,9 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import { personalProjectDataInterface, personalProjectData } from '../../../public/data/personalProjectData';
+import SourceButton from '../../components/SourceButton'
+
+
 
 function PersonalProjects() {
   return (
@@ -25,12 +28,14 @@ export default PersonalProjects;
 function PersonalProjectCards(props: personalProjectDataInterface) {
   return (
     <div className={"personal-project-card-container"}>
+
         <div className={"picture-container"}>
-          <img src={"data/bookCovers/ready_player_one.jpg"} alt={"placeholder"} width={"600px"} height={"400px"}/>
+          <img src={"data/bookCovers/ready_player_one.jpg"} alt={"placeholder"} width={"90%"} height={"80%"}/>
         </div>
 
         <div className={"text-container"}>
           <div className={"text-title-container"}>{props.title}</div>
+          <div className={"dates-wrapper"}>{props.dateStarted} - {props.dateEnded}</div>
           <div className={"tech-stack-container"}>
             {
               props.techStack.map(current => 
@@ -40,8 +45,17 @@ function PersonalProjectCards(props: personalProjectDataInterface) {
               )
             }
           </div>
+          <div className={"description-wrapper"}>{props.description}</div>
+          {/* 
+          
+          TODO: Integrate these into the design or a popup with a button or something???
+          
+          <div className={"noteable-wrapper"}>{props.noteableThings}</div>
+          <div className={"reflection-wrapper"}>{props.reflection}</div> 
+          */}
+          <div className={"source-wrapper"}><SourceButton link={props.srcLink} title={"Source Code"}/></div>
         </div>
-      
+
     </div>
   );
 } 

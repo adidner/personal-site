@@ -8,6 +8,7 @@ export interface personalProjectDataInterface {
     picturesSrc: string[];
     dateStarted: string;
     dateEnded: string;
+    //TODO: look into adding a section on other helpful links or video src to be displayed here too or youtube embedded jazz where applicable
 };
 
 
@@ -71,7 +72,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         title: "Youtube Playlist Creator",
         srcLink: "https://bitbucket.org/adidner/videocreator/src/master/",
         description: "An automated youtube video creation bot, the concept being it will take conent via API's and then automatically create videos and upload to youtube via their API",
-        techStack: ["Python", "JavaScript", "React Native", "Expo"],
+        techStack: ["Python"],
         noteableThings: "Worked for the most part, video creation and youtube upload.",
         reflection: "Never really took the final step to make it super passive via a cron job or something similar. Lacked professional look and feel. Should have consulted designer/gotten professional logo rather than doing it myself but was a broke student at the time. Also youtubes auto upload API was updated pretty often and the overhead of adjusting my breaking code was super annoying",
         picturesSrc: [],
@@ -81,7 +82,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
     {    
         title: "Secrets and Assassins",
         srcLink: "https://bitbucket.org/adidner/s-a/src/master/",
-        description: "A an person, role based tag game where the game setup is managed by the app and SMS messages",
+        description: "An in person, role based tag game where the game setup is managed by the app and SMS messages",
         techStack: ["JavaScript", "React Native", "Expo"],
         noteableThings: "Proud that I published the app and got it to work as desired. Also proud that I got to play test with friends",
         reflection: "I think my general archetctural premis was flawed (sending SMS rather than owning/using a server), might consider designing from scratch again someday as a website. Also just general lack of experience made lots of things difficult but very good learning experiences",

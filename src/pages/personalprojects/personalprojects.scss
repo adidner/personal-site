@@ -4,7 +4,8 @@
     margin: 10px 0 20px 0;
 
     .personal-projects-title {
-
+        font-size: xx-large;
+        font-weight: bold;
     }
 }
 
@@ -16,7 +17,10 @@
 
     .picture-container {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin: 10px 10px;
+        display: flex;
         flex: 1;
     }
 
@@ -26,10 +30,13 @@
         margin: 10px 10px;
         justify-content: center;
         flex: 1;
+        padding: 0 25px;
 
         .text-title-container {
             justify-content: center;
             display: flex;
+            font-size: x-large;
+            font-weight: bold;
         }
 
         .tech-stack-container {
@@ -43,6 +50,32 @@
             padding: 5px;
             margin: 3px;
         }
+
+        .description-wrapper {
+            justify-content: center;
+            display: flex;
+            text-align: center;
+        }
+
+        .dates-wrapper {
+            justify-content: center;
+            display: flex;
+        }
+
+        .noteable-wrapper {
+            justify-content: center;
+            display: flex;
+        }
+
+        .reflection-wrapper {
+            justify-content: center;
+            display: flex;
+        }
+
+        .source-wrapper {
+            justify-content: center;
+            display: flex;
+        } 
 
     }
 
