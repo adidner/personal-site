@@ -9,7 +9,7 @@ function PersonalProjects() {
   return (
     <Layout>
       <div className={"personal-projects-container"}>
-        <div className={"personal-projects-title"}>PersonalProjects</div>
+        <div className={"personal-projects-title"}>Personal Projects</div>
         {
           personalProjectData.map(current => 
             <PersonalProjectCards
