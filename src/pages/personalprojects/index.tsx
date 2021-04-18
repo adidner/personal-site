@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import { personalProjectDataInterface, personalProjectData } from '../../../public/data/personalProjectData';
 import SourceButton from '../../components/SourceButton'
-
+import linkify from '../../utils/Linkify';
 
 
 function PersonalProjects() {
@@ -45,7 +45,7 @@ function PersonalProjectCards(props: personalProjectDataInterface) {
               )
             }
           </div>
-          <div className={"description-wrapper"}>{props.description}</div>
+          <div className={"description-wrapper"}>{linkify(props.description)}</div>
           {/* 
           
           TODO: Integrate these into the design or a popup with a button or something???

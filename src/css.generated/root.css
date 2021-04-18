@@ -50,7 +50,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20px;
+  margin: 35px 20px;
 }
 
 .bio-and-image .image-container {
@@ -68,5 +68,5 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 20px;
+  margin: 30px 20px;
 }

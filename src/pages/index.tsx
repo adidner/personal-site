@@ -19,7 +19,7 @@ function Root() {
             <div className={"bio-and-image"}>
               {/* <img src={profile}/> */}
               <div className={"image-container"}>
-                Image will go here
+                <img src={"data/bookCovers/ready_player_one.jpg"} alt={"profile"} width={"40%"} height={"30%"}/>
               </div>
               <div className={"bio-container"}>
                 <p>

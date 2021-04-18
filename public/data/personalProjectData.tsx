@@ -60,7 +60,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
     {    
         title: "Infinite Paths",
         srcLink: "https://github.com/adidner/TextAdventure",
-        description: "A choose your own adventure book turned into an interactive app. https://play.google.com/store/apps/details?id=com.infinitepaths.imagination",
+        description: "A choose your own adventure book turned into an interactive app. Live now: https://play.google.com/store/apps/details?id=com.infinitepaths.imagination",
         techStack: ["Python", "JavaScript", "React Native", "Expo"],
         noteableThings: "I used python to do web scrapping to grab the content and process it, then React Native to create scafolding and a choice framework ",
         reflection: "Publishing is always a pain. Working with a freelance designer for app logo's was a cool experience. I wish I'd have reached out to other freelancer or professionals to know how to make my app look cleaner/professional. I also wish I'd spent some money on a bit of marketing to get the download to a more respectable number",
