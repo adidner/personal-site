@@ -24,7 +24,7 @@
 .bio-and-image{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 35px 20px;
 
@@ -41,4 +41,12 @@
     display: flex;
     justify-content: center;
     margin: 30px 20px;
+}
+
+
+.seperating-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
 }

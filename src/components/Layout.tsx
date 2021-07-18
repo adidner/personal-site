@@ -10,10 +10,10 @@ interface layoutProps {
 
 function Layout(props: layoutProps) {
   return (
-    <div>
+    <>
       <Navbar />
       {props.children}
-    </div>
+    </>
   )
 }
 
