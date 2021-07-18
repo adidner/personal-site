@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import {experienceSkillData} from "../../data/experienceSkillsData";
+import {experienceSkillData} from "../../../public/data/experienceSkillsData";
+import { experienceJobdata, experienceJobInterface } from "../../../public/data/experienceJobData";
 
 
 function ProfessionalProjects() {
@@ -10,7 +11,7 @@ function ProfessionalProjects() {
     <Layout>
       <div>
         
-        <div>
+        <div className={"main-containers"}>
           <h2>Skills</h2>
           {
             experienceSkillData.map((currentVal) => {
@@ -31,9 +32,15 @@ function ProfessionalProjects() {
           }
         </div>
 
-        <div>
+        <div className={"main-containers"}>
           <h2>Experience</h2>
-          
+          {
+            experienceJobdata.map((currentVal) => {
+              return (
+                <ExperienceCard {...currentVal} />
+              );
+            })
+          }
         </div>
       </div>
     </Layout>
@@ -41,3 +48,35 @@ function ProfessionalProjects() {
 }
 
 export default ProfessionalProjects;
+
+
+function ExperienceCard(props: experienceJobInterface){
+  return (
+    <div className={"experience-card-container"}>
+      <div className={"experience-title-set"}>
+        <div>{props.roleTitle}</div>
+        <div>{props.startDate} - {props.endDate}</div>
+      </div>
+      <div className={"experience-title-set"}>
+        <div>{props.companyTitle}</div>
+        <div>{props.location}</div>
+      </div>
+      <div>
+        {
+          props.experienceBody.map((currentVal) => {
+            return (
+              <div className={"experience-title-bullet-list"}>
+                  <div>{currentVal.introPrompt}</div>
+                  <ul>
+                    {
+                      currentVal.bulletList.map((current) => <li>{current}</li>)
+                    }
+                  </ul>
+              </div>
+            );
+          })
+        }
+      </div>
+    </div>
+  );
+}
