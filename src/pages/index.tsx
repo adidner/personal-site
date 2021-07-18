@@ -13,6 +13,10 @@ function Root() {
         <Layout>
           <div className={"seperating-container"}>
               <div>
+                
+                <h3>Disclaimer: This site is a work in progress as I have other personal projects that interest me and I want to work on over this one also I would rather code most of this content from scratch and include more personal details rather than use a generic template</h3>
+                
+                
                 <h1>Aaron Didner</h1>
                 <h2>I build Websites and Mobile apps</h2>
 
