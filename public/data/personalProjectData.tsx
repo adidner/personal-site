@@ -20,7 +20,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         techStack: ["TypeScript", "React", "NextJS", "SCSS", "Netlify"],
         noteableThings: "",
         reflection: "It was a great decision to figure out hosting early on as I can constantly publish results. I also though it was a good decision to do a lot of design and archetecting before hand. I kind of wish I decided to work with a professional designer but oh well, that can be for version 2.0",
-        picturesSrc: [],
+        picturesSrc: ["data/bookCovers/ready_player_one.jpg"],
         dateStarted: "2/7/21",
         dateEnded: "Present",
     },
@@ -31,7 +31,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         techStack: ["TypeScript", "React Native", "Expo"],
         noteableThings: "Made for me to use personally for my own use cases",
         reflection: "Some things I definielty should have done spikes on / designed with more scalability in mind. Like the storing of past data over time and using classes in certain places",
-        picturesSrc: [],
+        picturesSrc: ["data/bookCovers/ready_player_one.jpg"],
         dateStarted: "1/10/21",
         dateEnded: "Present",
     },
@@ -42,7 +42,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         techStack: ["TypeScript", "React Native", "Expo"],
         noteableThings: "Made for me to use personally for my own use cases",
         reflection: "Overall I've actually been pretty happy with this one so far, nothing comes to mind for things I've learned/messedup/would change",
-        picturesSrc: [],
+        picturesSrc: ["data/bookCovers/ready_player_one.jpg"],
         dateStarted: "10/11/20",
         dateEnded: "Present",
     },
@@ -53,7 +53,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         techStack: ["Python"],
         noteableThings: "Inspired by this tiktok: ", //TODO: put tik tok here
         reflection: "",
-        picturesSrc: [], //TODO: add screenshots of final products
+        picturesSrc: ["data/personalProjectPics/SpotifyCards.jpg"], //TODO: add screenshots of final products
         dateStarted: "7/26/20",
         dateEnded: "10/4/20",
     },
@@ -64,7 +64,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         techStack: ["Python", "JavaScript", "React Native", "Expo"],
         noteableThings: "I used python to do web scrapping to grab the content and process it, then React Native to create scafolding and a choice framework ",
         reflection: "Publishing is always a pain. Working with a freelance designer for app logo's was a cool experience. I wish I'd have reached out to other freelancer or professionals to know how to make my app look cleaner/professional. I also wish I'd spent some money on a bit of marketing to get the download to a more respectable number",
-        picturesSrc: [],//TODO: add app screenshots
+        picturesSrc: ["data/personalProjectPics/InfinitePaths.jpg"],//TODO: add app screenshots
         dateStarted: "3/29/20",
         dateEnded: "5/31/20",
     },
@@ -75,7 +75,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         techStack: ["Python"],
         noteableThings: "Worked for the most part, video creation and youtube upload.",
         reflection: "Never really took the final step to make it super passive via a cron job or something similar. Lacked professional look and feel. Should have consulted designer/gotten professional logo rather than doing it myself but was a broke student at the time. Also youtubes auto upload API was updated pretty often and the overhead of adjusting my breaking code was super annoying",
-        picturesSrc: [],
+        picturesSrc: ["data/personalProjectPics/YoutubePlaylistCreator.png"],
         dateStarted: "3/13/19",
         dateEnded: "5/27/19",
     },
@@ -86,7 +86,7 @@ export const personalProjectData: personalProjectDataInterface[] = [
         techStack: ["JavaScript", "React Native", "Expo"],
         noteableThings: "Proud that I published the app and got it to work as desired. Also proud that I got to play test with friends",
         reflection: "I think my general archetctural premis was flawed (sending SMS rather than owning/using a server), might consider designing from scratch again someday as a website. Also just general lack of experience made lots of things difficult but very good learning experiences",
-        picturesSrc: [],
+        picturesSrc: ["data/personalProjectPics/SecretsAndAssasins.png"],
         dateStarted: "11/15/18",
         dateEnded: "1/24/19",
     },
