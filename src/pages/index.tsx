@@ -36,7 +36,7 @@ function Root() {
                 </div>
               </div>
 
-              <div>            
+              <div style={{paddingBottom: "20px"}}>            
                 <div className={"center-get-in-touch"}>
                 <ButtonLink title={"Get In Touch"} link={"mailto:adidner@gmail.com"}/>
                 </div>

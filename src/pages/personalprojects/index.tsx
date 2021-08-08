@@ -30,7 +30,7 @@ function PersonalProjectCards(props: personalProjectDataInterface) {
     <div className={"personal-project-card-container"}>
 
         <div className={"picture-container"}>
-          <img src={props.picturesSrc[0]} alt={"placeholder"} width={"90%"} height={"80%"}/>
+          <img src={props.picturesSrc[0]} alt={"placeholder"} width={"90%"} />
         </div>
 
         <div className={"text-container"}>
