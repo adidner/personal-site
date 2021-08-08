@@ -1,3 +1,13 @@
+Make some paging system for tik toks such that we can do some form of lazy loading that doesn't suck quite so much
+
+Maybe do some testing and see in what fashion this is actually and issue and how it can be resolved and such
+
+
+
+
+
+
+
 setup nav bar navigation to everything in such a way that commenting out sections is nice and easy
 setup scss to do some nice things for me here
 
