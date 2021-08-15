@@ -1,21 +1,15 @@
-export interface bookDataInterface {
+export interface ReadInterface {
     title: string;
     author: string;
     imagePath: string;
     rating: number; //rating out of 10
     review: string;
-    publishDate: string;
+    publishDate?: string;
 };
 
-export const bookData: bookDataInterface[] = [
-    {
-        title: "Ready Player One",
-        imagePath: "/public/data/bookCovers/ready_player_one.jpg",
-        author: "Ernest Cline",
-        rating: 9,
-        review: "Solid story, with some nice twists and turns. References and easter eggs abound. I like the D&D ones and old game ones that my dad gave me context for.",
-        publishDate: "2011",
-    },
+
+
+export const learningReadBookData: ReadInterface[] = [
     {
         title: "The Subtle Art of Not Giving a F*ck",
         imagePath: "/public/data/bookCovers/the_subtle_art_of_not_giving_a_fuck.png",
@@ -23,6 +17,80 @@ export const bookData: bookDataInterface[] = [
         rating: 10,
         review: "Some really cool ideas and interesting takes on society, life, media and habits",
         publishDate: "2016",
+    },
+    {
+        title: "Come As You Are",
+        imagePath: "/public/data/bookCovers/come_as_you_are.jpg",
+        author: "Emily Nagoski",
+        rating: 10,
+        review: "Different ways to think about sex, with amazing insight",
+    },
+    {
+        title: "How to Invent Everything",
+        imagePath: "/public/data/bookCovers/how_to_invent_everything.jpg",
+        author: "Ryan North",
+        rating: 9,
+        review: "Rebuilding civilization from scratch with all our knowledge, lots of interesting science, history and invention",
+    },
+    {
+        title: "Declutter Your Mind",
+        imagePath: "/public/data/bookCovers/declutter_your_mind.jpg",
+        author: "S.J. Scott & Barrie Davenport",
+        rating: 7,
+        review: "Kinda generic / obvious but had a few standout point. Like forgiving yourself for past mistakes with the attitude that you were doing the best you could with what you had at the time",
+    },
+    {
+        title: "Getting to Yes",
+        imagePath: "/public/data/bookCovers/getting_to_yes.png",
+        author: "Roger Fisher & William Urgy",
+        rating: 9,
+        review: "A bit thick but revolutionary ideas with regards to negotiation with enhancing examples",
+    },
+    {
+        title: "Tax Free Wealth",
+        imagePath: "/public/data/bookCovers/tax_free_wealth.jpg",
+        author: "Tom Wheelwright",
+        rating: 7,
+        review: "A bit thick but good and important ideas",
+    },
+    {
+        title: "The 4 Hour Work Week",
+        imagePath: "/public/data/bookCovers/the_4_hour_work_week.jpg",
+        author: "Tim Ferris",
+        rating: 10,
+        review: "Revolutionary concepts with regards to efficiency and value created for work",
+    },
+    {
+        title: "Rich Dad Poor Dad",
+        imagePath: "/public/data/bookCovers/rich_dad_poor_dad.jpg",
+        author: "Robert Kiyosaki",
+        rating: 9,
+        review: "A classic that introcudes new ways to think about money",
+    },
+    {
+        title: "The 5 Love Languages",
+        imagePath: "/public/data/bookCovers/the_5_love_languages.jpg",
+        author: "Gary Chapman",
+        rating: 6,
+        review: "A few examples were useful but mostly the core concept from the web is enough",
+    },
+] 
+
+export const fictionReadBookData: ReadInterface[] = [
+    {
+        title: "Mistborn",
+        imagePath: "/public/data/bookCovers/mistborn.jpg",
+        author: "Brandon Sanderson",
+        rating: 10,
+        review: "Wonderful world with an amazing and unique magic system that has very interesting weaknesses/tradeoffs",
+    },
+    {
+        title: "Ready Player One",
+        imagePath: "/public/data/bookCovers/ready_player_one.jpg",
+        author: "Ernest Cline",
+        rating: 9,
+        review: "Solid story, with some nice twists and turns. References and easter eggs abound. I like the D&D ones and old game ones that my dad gave me context for.",
+        publishDate: "2011",
     },
     {
         title: "Ex-Heroes",
@@ -153,3 +221,183 @@ export const bookData: bookDataInterface[] = [
         publishDate: "2007",
     },
 ]; 
+
+export interface ToReadInterface {
+    title: string,
+    author: string,
+}
+
+
+export const fictionToReadBookData: ToReadInterface[] = [
+    {
+        title: "Even the Darkest Stars",
+        author: "Heather Fawcett",
+    },
+    {
+        title: "Wren Hunt",
+        author: "Mary Watson",
+    },
+    {
+        title: "Shadow of the Fox",
+        author: "Julie Kagawa",
+    },
+    {
+        title: "Shadow and Bone",
+        author: "Leigh Bardugo",
+    },
+    {
+        title: "Inherits the Stars",
+        author: "James P. Hogan",
+    },
+    {
+        title: "American Gods",
+        author: "Neil Gaiman",
+    },
+    {
+        title: "Worm",
+        author: "John McCrae",
+    },
+    {
+        title: "Steel Heart",
+        author: "Brandon Sanderson",
+    },
+    {
+        title: "Bastard Gentleman",
+        author: "Scott Lynch",
+    },
+    {
+        title: "The Sharing Knife",
+        author: "Lois McMaster Bujold",
+    },
+    {
+        title: "Vicious",
+        author: "V.E. Schwab",
+    },
+];
+
+export const learningToReadBookData: ToReadInterface[] = [
+    {
+        title: 'Your money or your life',
+        author: 'Viki Robin',
+    },
+    {
+        title: 'Sum',
+        author: 'David Eagleman',
+    },
+    {
+        title: 'Talking to Strangers',
+        author: 'Malcom Gladwell',
+    },
+    {
+        title: 'The Rational Optimist',
+        author: 'Matt Ridley',
+    },
+    {
+        title: 'Freakanomics',
+        author: 'Stephen Dubner & Steven Levitt',
+    },
+    {
+        title: 'Atomic Habits',
+        author: 'James Clear',
+    },
+    {
+        title: 'The Automatic Millionaire',
+        author: 'David Bach',
+    },
+    {
+        title: '7 Habits of Highly Effective People',
+        author: 'Stephen Covey',
+    },
+    {
+        title: 'Mans Search for Meaning',
+        author: 'Victor Frankel',
+    },
+    {
+        title: 'How To',
+        author: 'Randall Munroe',
+    },
+    {
+        title: 'Atlas Shrugged',
+        author: 'Ayn Rand',
+    },
+    {
+        title: 'Fountainhead',
+        author: 'Ayn Rand',
+    },
+    {
+        title: 'Wealth Attraction',
+        author: 'Dan Kennedy',
+    },
+    {
+        title: 'Mastery',
+        author: 'Robert Greene',
+    },
+    {
+        title: 'Influence: the Psychology of Persuasion',
+        author: 'Robert Cialdini',
+    },
+    {
+        title: 'Cashflow Quadrant',
+        author: 'Robert Kiyosaki',
+    },
+    {
+        title: 'Money Master the Game',
+        author: 'Tony Robbins',
+    },
+    {
+        title: 'Brotopia',
+        author: 'Emily Chang',
+    },
+    {
+        title: 'One up on Wall Street',
+        author: 'John Rothchild & Peter Lynch',
+    },
+    {
+        title: 'Rule #1',
+        author: 'Phil Town',
+    },
+    {
+        title: 'Attached',
+        author: 'Amir Levine & Rachel S.F. Heller',
+    },
+    {
+        title: 'Deep Work',
+        author: 'Cal Newport',
+    },
+    {
+        title: 'The Little Book of Common Sense Investing',
+        author: 'John Bogie',
+    },
+    {
+        title: 'Unwritten Laws, the Unofficial Rules of Line',
+        author: 'Hugh Rawson',
+    },
+    {
+        title: 'Quiet',
+        author: 'Susan Cain',
+    },
+    {
+        title: 'Show Your Work',
+        author: 'Austin Kleon',
+    },
+    {
+        title: 'Anything You Want',
+        author: 'Derek Sivers',
+    },
+    {
+        title: 'How to Take Smart Notes',
+        author: 'S. Ahrens',
+    },
+    {
+        title: 'Philosophy of Software Design',
+        author: 'John Ousterhout',
+    },
+    {
+        title: 'Design of Everyday Things',
+        author: 'Don Norman',
+    },
+    {
+        title: 'The Mindset',
+        author: 'Carol Dweck',
+    },
+];

@@ -1,6 +1,44 @@
+
+
+TIKTOKS
+
 Make some paging system for tik toks such that we can do some form of lazy loading that doesn't suck quite so much
 
 Maybe do some testing and see in what fashion this is actually and issue and how it can be resolved and such
+
+
+
+
+READING/BOOKS
+
+Fool around with css grid and getting the page of comparisons to look cleaner? Or a table?
+
+Make a modal card for the hobbies/reading page and make the read stuff pull up said card
+
+Make a mini card for the favorites books page and have it pull up the modal card onClick
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
