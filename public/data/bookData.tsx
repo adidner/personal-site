@@ -78,11 +78,11 @@ export const learningReadBookData: ReadInterface[] = [
 
 export const fictionReadBookData: ReadInterface[] = [
     {
-        title: "Mist Born",
-        imagePath: "",
-        author: "",
+        title: "Mistborn",
+        imagePath: "/public/data/bookCovers/mistborn.jpg",
+        author: "Brandon Sanderson",
         rating: 10,
-        review: "",
+        review: "Wonderful world with an amazing and unique magic system that has very interesting weaknesses/tradeoffs",
     },
     {
         title: "Ready Player One",
@@ -223,9 +223,181 @@ export const fictionReadBookData: ReadInterface[] = [
 ]; 
 
 export interface ToReadInterface {
-    title: "",
-    author: "",
+    title: string,
+    author: string,
 }
 
 
-export const fictionToReadBookData: 
+export const fictionToReadBookData: ToReadInterface[] = [
+    {
+        title: "Even the Darkest Stars",
+        author: "Heather Fawcett",
+    },
+    {
+        title: "Wren Hunt",
+        author: "Mary Watson",
+    },
+    {
+        title: "Shadow of the Fox",
+        author: "Julie Kagawa",
+    },
+    {
+        title: "Shadow and Bone",
+        author: "Leigh Bardugo",
+    },
+    {
+        title: "Inherits the Stars",
+        author: "James P. Hogan",
+    },
+    {
+        title: "American Gods",
+        author: "Neil Gaiman",
+    },
+    {
+        title: "Worm",
+        author: "John McCrae",
+    },
+    {
+        title: "Steel Heart",
+        author: "Brandon Sanderson",
+    },
+    {
+        title: "Bastard Gentleman",
+        author: "Scott Lynch",
+    },
+    {
+        title: "The Sharing Knife",
+        author: "Lois McMaster Bujold",
+    },
+    {
+        title: "Vicious",
+        author: "V.E. Schwab",
+    },
+];
+
+export const learningToReadBookData: ToReadInterface[] = [
+    {
+        title: 'Your money or your life',
+        author: 'Viki Robin',
+    },
+    {
+        title: 'Sum',
+        author: 'David Eagleman',
+    },
+    {
+        title: 'Talking to Strangers',
+        author: 'Malcom Gladwell',
+    },
+    {
+        title: 'The Rational Optimist',
+        author: 'Matt Ridley',
+    },
+    {
+        title: 'Freakanomics',
+        author: 'Stephen Dubner & Steven Levitt',
+    },
+    {
+        title: 'Atomic Habits',
+        author: 'James Clear',
+    },
+    {
+        title: 'The Automatic Millionaire',
+        author: 'David Bach',
+    },
+    {
+        title: '7 Habits of Highly Effective People',
+        author: 'Stephen Covey',
+    },
+    {
+        title: 'Mans Search for Meaning',
+        author: 'Victor Frankel',
+    },
+    {
+        title: 'How To',
+        author: 'Randall Munroe',
+    },
+    {
+        title: 'Atlas Shrugged',
+        author: 'Ayn Rand',
+    },
+    {
+        title: 'Fountainhead',
+        author: 'Ayn Rand',
+    },
+    {
+        title: 'Wealth Attraction',
+        author: 'Dan Kennedy',
+    },
+    {
+        title: 'Mastery',
+        author: 'Robert Greene',
+    },
+    {
+        title: 'Influence: the Psychology of Persuasion',
+        author: 'Robert Cialdini',
+    },
+    {
+        title: 'Cashflow Quadrant',
+        author: 'Robert Kiyosaki',
+    },
+    {
+        title: 'Money Master the Game',
+        author: 'Tony Robbins',
+    },
+    {
+        title: 'Brotopia',
+        author: 'Emily Chang',
+    },
+    {
+        title: 'One up on Wall Street',
+        author: 'John Rothchild & Peter Lynch',
+    },
+    {
+        title: 'Rule #1',
+        author: 'Phil Town',
+    },
+    {
+        title: 'Attached',
+        author: 'Amir Levine & Rachel S.F. Heller',
+    },
+    {
+        title: 'Deep Work',
+        author: 'Cal Newport',
+    },
+    {
+        title: 'The Little Book of Common Sense Investing',
+        author: 'John Bogie',
+    },
+    {
+        title: 'Unwritten Laws, the Unofficial Rules of Line',
+        author: 'Hugh Rawson',
+    },
+    {
+        title: 'Quiet',
+        author: 'Susan Cain',
+    },
+    {
+        title: 'Show Your Work',
+        author: 'Austin Kleon',
+    },
+    {
+        title: 'Anything You Want',
+        author: 'Derek Sivers',
+    },
+    {
+        title: 'How to Take Smart Notes',
+        author: 'S. Ahrens',
+    },
+    {
+        title: 'Philosophy of Software Design',
+        author: 'John Ousterhout',
+    },
+    {
+        title: 'Design of Everyday Things',
+        author: 'Don Norman',
+    },
+    {
+        title: 'The Mindset',
+        author: 'Carol Dweck',
+    },
+];
