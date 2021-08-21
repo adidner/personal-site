@@ -13,7 +13,7 @@ READING/BOOKS
 
 F̶o̶o̶l̶ a̶r̶o̶u̶n̶d̶ w̶i̶t̶h̶ c̶s̶s̶ g̶r̶i̶d̶ a̶n̶d̶ g̶e̶t̶t̶i̶n̶g̶ t̶h̶e̶ p̶a̶g̶e̶ o̶f̶ c̶o̶m̶p̶a̶r̶i̶s̶o̶n̶s̶ t̶o̶ l̶o̶o̶k̶ c̶l̶e̶a̶n̶e̶r̶?̶ O̶r̶ a̶ t̶a̶b̶l̶e̶?̶
 
-Make a modal card for the hobbies/reading page and make the read stuff pull up said card
+Make a modal card for the hobbies/reading page and make the read stuff pull up said card -> https://material-ui.com/components/modal/
 
 Make a mini card for the favorites books page and have it pull up the modal card onClick
 
