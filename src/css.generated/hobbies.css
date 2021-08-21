@@ -6,7 +6,7 @@
   -ms-grid-rows: 0.07fr 1fr 0.07fr 1fr;
       grid-template-rows: 0.07fr 1fr 0.07fr 1fr;
       grid-template-areas: "Learning . ." ". LearningToRead LearningRead" "Fiction . ." ". FictionToRead FictionRead";
-  gap: 0px 20px;
+  gap: 0px 5px;
 }
 
 .hobbies-books-grid-container .hobbies-books-learning {
@@ -43,4 +43,8 @@
   -ms-grid-row: 4;
   -ms-grid-column: 3;
   grid-area: FictionRead;
+}
+
+.hobbies-books-grid-container ul {
+  padding-left: 15px;
 }
