@@ -44,20 +44,15 @@ function Reading() {
 
   return (
     <Layout>
-      <div>
-        <h2>Learning</h2>
-        <div className={"hobbies-book-column-seperator"}>
-          <div>{createToReadList(learningToReadBookData)}</div>
-          <div>{createReadList(learningReadBookData)}</div>
-        </div>
-      </div>
-      <div>
-        <h2>Fiction</h2>
-        <div className={"hobbies-book-column-seperator"}>
-          <div>{createToReadList(fictionToReadBookData)}</div>
-          <div>{createReadList(fictionReadBookData)}</div>
-        </div>
-      </div>     
+
+      <div className={"hobbies-books-grid-container"}> 
+        <h2 className={"hobbies-books-learning"}>Learning</h2>
+        <div className={"hobbies-books-learning-to-read"}>{createToReadList(learningToReadBookData)}</div>
+        <div className={"hobbies-books-learning-read"}>{createReadList(learningReadBookData)}</div>
+        <h2 className={"hobbies-books-fiction"}>Fiction</h2>
+        <div className={"hobbies-books-fiction-to-read"}>{createToReadList(fictionToReadBookData)}</div>
+        <div className={"hobbies-books-fiction-read"}>{createReadList(fictionReadBookData)}</div>
+      </div>    
 
     </Layout>
   );
