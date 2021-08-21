@@ -3,8 +3,8 @@
   display: grid;
   -ms-grid-columns: 0.5fr 1fr 1fr;
       grid-template-columns: 0.5fr 1fr 1fr;
-  -ms-grid-rows: 0.1fr 1fr 0.1fr 1fr;
-      grid-template-rows: 0.1fr 1fr 0.1fr 1fr;
+  -ms-grid-rows: 0.07fr 1fr 0.07fr 1fr;
+      grid-template-rows: 0.07fr 1fr 0.07fr 1fr;
       grid-template-areas: "Learning . ." ". LearningToRead LearningRead" "Fiction . ." ". FictionToRead FictionRead";
   gap: 0px 20px;
 }
