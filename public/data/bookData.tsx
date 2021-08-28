@@ -74,6 +74,13 @@ export const learningReadBookData: ReadInterface[] = [
         rating: 6,
         review: "A few examples were useful but mostly the core concept from the web is enough",
     },
+    {
+        title: "10% Happier",
+        imagePath: "/public/data/bookCovers/10%_happier.jpg",
+        author: "Dan Harris",
+        rating: 9,
+        review: "Kinda slow at the beginning as he's just explaining his life story. Some very good take aways though and the writing style is generally pretty good. 1) Take some take to conciously be more aware of your sense and emotions (look at nature, feel how soft your cloths are on your skin). 2) Meditate as a way to practice focus, try to just focus on your breath, when you get distracted realize this and gently go back to focus on your breath. 3) Respond don't react. When you find yourself feeling a way, identify the emtions, notice how they're impacting your body (sweaty palms, heart racing, etc), look at why your feel those emotions, what can be done about the situation, then gently nudge away the feelings. Worry is useful until its not -> worry is good so long as its motiviating action that is productive like planning or counter measure but after that its pointless and you should stop",
+    },
 ] 
 
 export const fictionReadBookData: ReadInterface[] = [
