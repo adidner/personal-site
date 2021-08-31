@@ -5,6 +5,7 @@ export interface ReadInterface {
     rating: number; //rating out of 10
     review: string;
     publishDate?: string;
+    takeAways?: string[];
 };
 
 
@@ -15,7 +16,8 @@ export const learningReadBookData: ReadInterface[] = [
         imagePath: "/public/data/bookCovers/the_subtle_art_of_not_giving_a_fuck.png",
         author: "Mark Manson",
         rating: 10,
-        review: "Some really cool ideas and interesting takes on society, life, media and habits",
+        review: "Some really cool ideas and interesting takes on society, life, media and habits. ",
+        takeAways: ["The idea that striving to be better like traditional self help can be a negative experience because the implication is that you aren't good enough right now.", "Hapiness comes from solving problems, so choose good ones. ", "Ask lots of why questions -> why do I want to be rich, why does something bother me.", "Problems shoudl be continuous, goals should revolve around consistency rather than metrics and thusly you can constantly be the kind of person you want to be, also align goals with values."],
         publishDate: "2016",
     },
     {
@@ -23,35 +25,40 @@ export const learningReadBookData: ReadInterface[] = [
         imagePath: "/public/data/bookCovers/come_as_you_are.jpg",
         author: "Emily Nagoski",
         rating: 10,
-        review: "Different ways to think about sex, with amazing insight",
+        review: "Different ways to think about sex, with amazing insight.",
+        takeAways: ["Think of arousal as an accelorator (things that excite you) and a brakes (things that stress/distract you). People have different sensitivity on each and different things trigger each for different people", "Context is everything", "Expecting/anticipating, eagerness/wanting and enjoying/liking are 3 seperate things that can exist in any combination with or without one another", "If you're stressed, can do a few things to help, (exercise/dance, primal scream or crying, meditate or do yoga, something relaxing like a shower, massage, nails etc)", "You can learn to find certain things more arousing and learn to find other things as less of a turn off", "nonconcordance: your body can respond as if aroused even if you aren't mentally and vice versa", ],
     },
     {
         title: "How to Invent Everything",
         imagePath: "/public/data/bookCovers/how_to_invent_everything.jpg",
         author: "Ryan North",
         rating: 9,
-        review: "Rebuilding civilization from scratch with all our knowledge, lots of interesting science, history and invention",
+        review: "Rebuilding civilization from scratch with all our knowledge, lots of interesting science, history and invention. No particularly big take aways but neat to know how records, engines, turbines and electricity work. Plus smelting and smithing and how to use animals to do all sorts of agriclture and how to rediscover penecillin if needed",
+        takeAways: ["Knowledge is pretty neat"],
     },
     {
         title: "Declutter Your Mind",
         imagePath: "/public/data/bookCovers/declutter_your_mind.jpg",
         author: "S.J. Scott & Barrie Davenport",
         rating: 7,
-        review: "Kinda generic / obvious but had a few standout point. Like forgiving yourself for past mistakes with the attitude that you were doing the best you could with what you had at the time",
+        review: "Kinda generic / obvious but had a few standout point. ",
+        takeAways: ["Like forgiving yourself for past mistakes with the attitude that you were doing the best you could with what you had at the time, also applying the same idea to other in your life who might have wronged you like your parents"],
     },
     {
         title: "Getting to Yes",
         imagePath: "/public/data/bookCovers/getting_to_yes.png",
         author: "Roger Fisher & William Urgy",
         rating: 9,
-        review: "A bit thick but revolutionary ideas with regards to negotiation with enhancing examples",
+        review: "A bit thick but revolutionary ideas with regards to negotiation with enhancing examples. ",
+        takeAways: ["Argue with interest over position, if 2 people wanted an orange each persons postiion is I want a Orange, and traditional wisdom would say cut the orange in half. But if one persons interest was in the fruit and the others was in the rine for zest for a cake a better arangement could have been reached. Israel and Egypt both wanted the saini desert (their position), Israels interest was in protection and Egypts was in heritage and culture and eventually an agreement was reached wher Egypt would own the land but it would be demiliterized. ", "Appeal to a neutral third party for standards, for example if you're getting and insruance claim for your car ask them how they got their estimate and use the Blue Book values as a baseline for features and parts.", "BATNA best alternative to a negotiated agreement. Have a real, ready to go alternative is sometimes the best thing because if negotations really aren't going your way you have something to fall back on.", "Invent options for mutual gain", "Be aware of dirty negotiation tricks (putting pressure on your for time, being in a room thats to hot or cold) and point them out as problems and offer to come back later once these problems are resolved."],
     },
     {
         title: "Tax Free Wealth",
         imagePath: "/public/data/bookCovers/tax_free_wealth.jpg",
         author: "Tom Wheelwright",
         rating: 7,
-        review: "A bit thick but good and important ideas",
+        review: "A bit thick but good and important ideas. Also the meta idea that american tax code is made to encourage businesses to exist here and thats why we've stayed such a power hosue of economics. ",
+        takeAways: [" Mainly, businesses & investors get some awesome write offs & the best tax rates, houses are good for amortization and decpreciation (so know and use both),"," choose a good CPA who knows thing and will actively help you reduce taxes rather than being afraid of an auditor.", "Also make a trust and give some owner ship to children to avoid inheritance taxes.","Own and spread out businesses to reduce taxes/backet.","Don't just look at income tax but also sales, property and excise.","401k income derived isn't taxed under capital gains but normal income rules so if you plan on retiring with a higher income it might not be better to use a IRA. (ROTH is still awesome, until you don't qualify because your income is to high :/) "],
     },
     {
         title: "The 4 Hour Work Week",
@@ -59,6 +66,7 @@ export const learningReadBookData: ReadInterface[] = [
         author: "Tim Ferris",
         rating: 10,
         review: "Revolutionary concepts with regards to efficiency and value created for work",
+        takeAways: ["Learn to cultivate real focus (get your rest, eliminate phones and distraction) to accomplish most of what you have to do in a day in record time (plus after you run out of work energy you aren't going to be very productive anyways)", "Batch tasks, do a bunch of the same type of thing all together because constant switching/distractions take time/effort", "You don't have to wait until retirement to do retirement like things (and you probably shouldn't)","Focus on effictiveness (getting towards your goal), over efficiency (doing well at a task that may or maynot be important), 80/20 rule (80% of benefit comes from 20% of the effort so eliminate wisely that which isn't helping much), Parkinsons Law (tasks grow to fill the time alloted for them, -> short clear deadlines)", "Avoid information/interruptions that are irrelevant, unimportant or unactionable. Most info is time consuming, negative, irrelevant to your goals and outside your influence", "Delegate tasks you don't want to do"],
     },
     {
         title: "Rich Dad Poor Dad",
@@ -66,6 +74,7 @@ export const learningReadBookData: ReadInterface[] = [
         author: "Robert Kiyosaki",
         rating: 9,
         review: "A classic that introcudes new ways to think about money",
+        takeAways: ["No ones gonna teach you financial literacy, its up to you to go get it yourself and its important to understand money because its the cause of many problems for most people", "Make your money work for you, invest in stocks or real estate or create a business (money generating assets)", "Knowledge is power, never stop learning", "Pay yourself first (the first thing I do is invest a large percentage of every check and then portion that goes to necesities like food and rent)"],
     },
     {
         title: "The 5 Love Languages",
@@ -73,13 +82,15 @@ export const learningReadBookData: ReadInterface[] = [
         author: "Gary Chapman",
         rating: 6,
         review: "A few examples were useful but mostly the core concept from the web is enough",
+        takeAways: ["Talk to your partner about how you can show them you care about them and vice versa.", "General idea is their are 5 categories of potential ways to show or recieve affection, phyiscal touch, gifts, words of affirmation, acts of service and quality time"],
     },
     {
         title: "10% Happier",
         imagePath: "/public/data/bookCovers/10%_happier.jpg",
         author: "Dan Harris",
         rating: 9,
-        review: "Kinda slow at the beginning as he's just explaining his life story. Some very good take aways though and the writing style is generally pretty good. 1) Take some take to conciously be more aware of your sense and emotions (look at nature, feel how soft your cloths are on your skin). 2) Meditate as a way to practice focus, try to just focus on your breath, when you get distracted realize this and gently go back to focus on your breath. 3) Respond don't react. When you find yourself feeling a way, identify the emtions, notice how they're impacting your body (sweaty palms, heart racing, etc), look at why your feel those emotions, what can be done about the situation, then gently nudge away the feelings. Worry is useful until its not -> worry is good so long as its motiviating action that is productive like planning or counter measure but after that its pointless and you should stop",
+        review: "Kinda slow at the beginning as he's just explaining his life story. Some very good take aways though and the writing style is generally pretty good. ",
+        takeAways: ["Take some take to conciously be more aware of your sense and emotions (look at nature, feel how soft your cloths are on your skin).","Meditate as a way to practice focus, try to just focus on your breath, when you get distracted realize this and gently go back to focus on your breath. ","Respond don't react. When you find yourself feeling a way, identify the emtions, notice how they're impacting your body (sweaty palms, heart racing, etc), look at why your feel those emotions, what can be done about the situation, then gently nudge away the feelings.","Worry is useful until its not -> worry is good so long as its motiviating action that is productive like planning or counter measure but after that its pointless and you should stop"],
     },
 ] 
 
@@ -284,7 +295,7 @@ export const fictionToReadBookData: ToReadInterface[] = [
 
 export const learningToReadBookData: ToReadInterface[] = [
     {
-        title: 'Your money or your life',
+        title: 'Your Money or Your Life',
         author: 'Viki Robin',
     },
     {
@@ -318,10 +329,6 @@ export const learningToReadBookData: ToReadInterface[] = [
     {
         title: 'Mans Search for Meaning',
         author: 'Victor Frankel',
-    },
-    {
-        title: 'How To',
-        author: 'Randall Munroe',
     },
     {
         title: 'Atlas Shrugged',
