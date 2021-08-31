@@ -20,7 +20,7 @@ export const LearningBookModal:React.FC<LearningBookModalProps> = ({visibility, 
     return(
         <Modal open={internalVisibility} onClose={() => handleClose()}>
             <div className={"learning-book-modal"}>
-                {/* <img src={imagePath} alt={"book cover"}/> */}
+                <img src={imagePath} alt={"book cover"} height={"275px"} width={"183px"}/>
                 <h2>{title}</h2>
                 <h4>{author}</h4>
                 <button onClick={() => handleClose()}>close</button>
