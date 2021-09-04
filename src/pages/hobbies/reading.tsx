@@ -1,6 +1,7 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement, useState } from 'react';
 import Layout from '../../components/Layout';
 import { learningReadBookData, fictionReadBookData, learningToReadBookData, fictionToReadBookData, ToReadInterface, ReadInterface } from '../../../public/data/bookData';
+import { LearningBookModal } from '../../components/LearningBookModal';
 
 
 //this page will be the books I've read from fiction and selfhelp in 2 column table things
@@ -25,16 +26,30 @@ function Reading() {
     );
   }
 
+  function InnardsPlusModal(props: ReadInterface){
+    const [visibility, setVisibility] = useState(false);
+    
+    return (
+      <div>
+        <li onClick={() => setVisibility(true)}>
+          {props.title + " by " + props.author} 
+        </li>
+        <LearningBookModal visibility={visibility} handleClose={() => {setVisibility(false); console.log("in parent onClose")}} {...props}/>
+      </div>
+    );
+  } 
+
   const createReadList = (data: ReadInterface[]): ReactElement => {
+    
+
+
     return (
       <>
         <h3>Books I've Read</h3>
         <ul>
           {
             data.map((book) => 
-              <li>
-                {book.title + " by " + book.author} 
-              </li>
+              <InnardsPlusModal {...book} />
             )
           }
         </ul>
