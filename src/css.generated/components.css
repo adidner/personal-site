@@ -90,9 +90,3 @@
   color: #f87f27;
   border-color: #f87f27;
 }
-
-.learning-book-modal {
-  -webkit-transform: 'translate(-50%,-50%)';
-          transform: 'translate(-50%,-50%)';
-  background-color: darkgrey;
-}
