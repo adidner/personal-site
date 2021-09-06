@@ -92,6 +92,14 @@ export const learningReadBookData: ReadInterface[] = [
         review: "Kinda slow at the beginning as he's just explaining his life story. Some very good take aways though and the writing style is generally pretty good. ",
         takeAways: ["Take some take to conciously be more aware of your sense and emotions (look at nature, feel how soft your cloths are on your skin).","Meditate as a way to practice focus, try to just focus on your breath, when you get distracted realize this and gently go back to focus on your breath. ","Respond don't react. When you find yourself feeling a way, identify the emtions, notice how they're impacting your body (sweaty palms, heart racing, etc), look at why your feel those emotions, what can be done about the situation, then gently nudge away the feelings.","Worry is useful until its not -> worry is good so long as its motiviating action that is productive like planning or counter measure but after that its pointless and you should stop"],
     },
+    {
+        title: "Show Your Work",
+        imagePath: "/data/bookCovers/show_your_work.png",
+        author: "Austin Kleon",
+        rating: 9,
+        review: "I really cool book, covering the importance of documenting your journey as a way to sharing valuble knowledge and finding likeminded people. Show and cute book, very easy read",
+        takeAways: ["You don't have to be a genuis/ultra refined", "have an amateurs curiosity", "Think Process over Product", "Share small and often", "Only share what you think would be genuinely helpful, and/or entertaining and you would let your mother see, internet is here forever", "Never feel bad for what you genuinely enjoy", "Listen/absorb/pay your dues", "Hearts over eyeballs", "Take out people/things that don't matter and suck to much of your energy"],
+    },
 ] 
 
 export const fictionReadBookData: ReadInterface[] = [
